@@ -1,0 +1,30 @@
+.ads{
+    height: 60px;
+    background-image: url("/images/JA-top-stri-editted.gif");
+    background-size: 100% 100%;
+}
+
+.ads-container{
+    background-color: #ffd4db;
+}
+
+.sell-on-jumia{
+    background-color: #f1f1f2;
+    height: 30px;
+    font-size: .8rem;
+    
+}
+
+.onHover-underline:hover{
+    text-decoration: underline;
+}
+
+.color-onHover{
+    filter: grayscale();
+    opacity: 50%;
+}
+
+.color-onHover:hover{
+    filter: none;
+    opacity: 1;
+}
