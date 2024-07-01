@@ -1,31 +1,136 @@
-import React from 'react'
+import React from "react";
 
 const Header = () => {
   let jumiaColor = {
-    color:'#f68b1e'
-  }
+    color: "#f68b1e",
+    backgroundColor: "#f68b1e",
+  };
   return (
-    
     <>
       <header>
-        <div className='ads-container'>
+        <div className="ads-container">
           <div className="ads container"></div>
         </div>
-        <div className='sell-on-jumia'>
+        <div className="sell-on-jumia">
           <div className="container h-100 d-flex px-0">
-            <div className='d-flex align-items-center col-5 gap-2'>
-              <img src="/images/logo2.png" alt="" height={12}/>
-              <span><a href="" className='onHover-underline' style={jumiaColor}>Sell on Jumia</a></span>
+            <div className="d-flex align-items-center col-5 gap-2">
+              <img src="/images/logo2.png" alt="" height={12} />
+              <span>
+                <a
+                  href=""
+                  className="onHover-underline"
+                  style={{ color: jumiaColor.color }}
+                >
+                  Sell on Jumia
+                </a>
+              </span>
             </div>
-            <div className='d-flex align-items-center col-7 gap-3'>
-              <img src="/images/logo.png" alt="" height={30}/>
-              <img src="/images/jumia-pay-white.png" alt="" className='color-onHover' height={12}/>
+            <div className="d-flex align-items-center col-7 gap-3">
+              <img src="/images/logo.png" alt="" height={30} />
+              <img
+                src="/images/jumia-pay-white.png"
+                alt=""
+                className="color-onHover"
+                height={12}
+              />
             </div>
           </div>
         </div>
+        <nav className="">
+          <div className="d-flex container px-0 ">
+            <div className="d-flex col-2">
+              <img src="/images/logo.png" alt="" height={80} />
+            </div>
+            <ul className="col-10 d-flex align-items-center justify-content-between m-0 px-0">
+              <div>
+                <input
+                  type="text"
+                  className="nav-search"
+                  placeholder="Search products, brands and categories"
+                />
+                <button
+                  className="btn btn-search ms-2 text-white"
+                  style={{ backgroundColor: jumiaColor.backgroundColor }}
+                >
+                  Search
+                </button>
+              </div>
+              <div className="dropdown">
+                <a
+                  className="btn btn-white nav-btns shadow-none dropdown-toggle px-2"
+                  href="#"
+                  role="button"
+                  id="dropdownMenuLink"
+                  data-mdb-dropdown-init
+                  data-mdb-ripple-init
+                  aria-expanded="false"
+                >
+                  <i className="far fa-user me-2"></i>Account
+                </a>
+
+                <ul
+                  className="dropdown-menu"
+                  aria-labelledby="dropdownMenuLink"
+                >
+                  <li>
+                    <a className="dropdown-item" href="#">
+                      Action
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="#">
+                      Another action
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="#">
+                      Something else here
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div className="dropdown ">
+                <a
+                  className="btn btn-white nav-btns shadow-none dropdown-toggle px-2"
+                  href="#"
+                  role="button"
+                  id="dropdownMenuLink"
+                  data-mdb-dropdown-init
+                  data-mdb-ripple-init
+                  aria-expanded="false"
+                >
+                  <i className="far fa-circle-question me-2"></i>Help
+                </a>
+
+                <ul
+                  className="dropdown-menu"
+                  aria-labelledby="dropdownMenuLink"
+                >
+                  <li>
+                    <a className="dropdown-item" href="#">
+                      Action
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="#">
+                      Another action
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="#">
+                      Something else here
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <button className="btn nav-btns shadow-none"><i className="fas fa-cart-shopping me-2"></i>Cart</button>
+              
+            </ul>
+          </div>
+        </nav>
       </header>
     </>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

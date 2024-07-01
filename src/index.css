@@ -28,3 +28,23 @@
     filter: none;
     opacity: 1;
 }
+
+.nav-search{
+    height: 40px;
+    width: 500px;
+    outline: none;
+}
+
+.nav-search:placeholder-shown{
+    padding-left: 10px;
+}
+
+.btn-search{
+    height: 40px;
+}
+
+.nav-btns{
+    font-size: 1.1rem;
+    text-transform: capitalize !important;
+    font-weight: 400;
+}
