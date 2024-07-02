@@ -31,7 +31,7 @@
 
 .nav-search{
     height: 40px;
-    width: 500px;
+    /* width: 83%; */
     outline: none;
 }
 
@@ -44,7 +44,35 @@
 }
 
 .nav-btns{
-    font-size: 1.1rem;
+    font-size: 1rem;
     text-transform: capitalize !important;
     font-weight: 400;
+}
+
+
+
+.container-fluid{
+    min-height: 100dvh;
+    background-image: url('/images/bg-live.jpg');
+    background-size: cover;
+}
+
+.banner-grid1{
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.banner-grid1-item1, .banner-grid1-item2{
+    grid-row: span 2;
+}
+
+.banner-grid1-item4{
+    background-image: url('/images/BSB.gif');
+}
+
+.carousel-indicators > button{
+    border-radius: 50% !important;
+    height: 5px !important;
+    width: 5px !important;
 }

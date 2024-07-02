@@ -5,6 +5,11 @@ const Header = () => {
     color: "#f68b1e",
     backgroundColor: "#f68b1e",
   };
+  let nav_sticky ={
+    position:'sticky',
+    top:0,
+    width:'100%'
+  }
   return (
     <>
       <header>
@@ -36,28 +41,27 @@ const Header = () => {
             </div>
           </div>
         </div>
-        <nav className="">
+        <nav className=" bg-white" style={nav_sticky}>
           <div className="d-flex container px-0 ">
-            <div className="d-flex col-2">
+            <div className="d-flex " style={{width:'22%'}}>
               <img src="/images/logo.png" alt="" height={80} />
             </div>
-            <ul className="col-10 d-flex align-items-center justify-content-between m-0 px-0">
-              <div>
+            <ul className="d-flex align-items-center justify-content-between m-0 px-0" style={{width:'78%'}}>
                 <input
                   type="text"
-                  className="nav-search"
+                  className="nav-search d-block col-7"
                   placeholder="Search products, brands and categories"
                 />
                 <button
-                  className="btn btn-search ms-2 text-white"
+                  className="btn btn-search text-white d-block"
                   style={{ backgroundColor: jumiaColor.backgroundColor }}
                 >
                   Search
                 </button>
-              </div>
+              
               <div className="dropdown">
                 <a
-                  className="btn btn-white nav-btns shadow-none dropdown-toggle px-2"
+                  className="btn btn-white nav-btns shadow-none dropdown-toggle px-1"
                   href="#"
                   role="button"
                   id="dropdownMenuLink"
@@ -91,7 +95,7 @@ const Header = () => {
               </div>
               <div className="dropdown ">
                 <a
-                  className="btn btn-white nav-btns shadow-none dropdown-toggle px-2"
+                  className="btn btn-white nav-btns shadow-none dropdown-toggle px-1"
                   href="#"
                   role="button"
                   id="dropdownMenuLink"
@@ -123,7 +127,7 @@ const Header = () => {
                   </li>
                 </ul>
               </div>
-              <button className="btn nav-btns shadow-none"><i className="fas fa-cart-shopping me-2"></i>Cart</button>
+              <button className="btn nav-btns shadow-none px-1"><i className="fas fa-cart-shopping me-2"></i>Cart</button>
               
             </ul>
           </div>
