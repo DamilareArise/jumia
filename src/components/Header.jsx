@@ -1,15 +1,18 @@
 import React from "react";
 
 const Header = () => {
-  let jumiaColor = {
+  const jumiaColor = {
     color: "#f68b1e",
     backgroundColor: "#f68b1e",
   };
-  let nav_sticky ={
-    position:'sticky',
-    top:0,
-    width:'100%'
-  }
+
+  const navSticky = {
+    position: 'sticky',
+    top: 0,
+    width: '100%',
+    zIndex: 1000,
+  };
+
   return (
     <>
       <header>
@@ -41,24 +44,24 @@ const Header = () => {
             </div>
           </div>
         </div>
-        <nav className=" bg-white" style={nav_sticky}>
-          <div className="d-flex container px-0 ">
-            <div className="d-flex " style={{width:'22%'}}>
+        <nav className="bg-white" style={navSticky}>
+          <div className="d-flex container px-0">
+            <div className="d-flex" style={{ width: '22%' }}>
               <img src="/images/logo.png" alt="" height={80} />
             </div>
-            <ul className="d-flex align-items-center justify-content-between m-0 px-0" style={{width:'78%'}}>
-                <input
-                  type="text"
-                  className="nav-search d-block col-7"
-                  placeholder="Search products, brands and categories"
-                />
-                <button
-                  className="btn btn-search text-white d-block"
-                  style={{ backgroundColor: jumiaColor.backgroundColor }}
-                >
-                  Search
-                </button>
-              
+            <ul className="d-flex align-items-center justify-content-between m-0 px-0" style={{ width: '78%' }}>
+              <input
+                type="text"
+                className="nav-search d-block col-7"
+                placeholder="Search products, brands and categories"
+              />
+              <button
+                className="btn btn-search text-white d-block"
+                style={{ backgroundColor: jumiaColor.backgroundColor }}
+              >
+                Search
+              </button>
+
               <div className="dropdown">
                 <a
                   className="btn btn-white nav-btns shadow-none dropdown-toggle px-1"
@@ -93,7 +96,7 @@ const Header = () => {
                   </li>
                 </ul>
               </div>
-              <div className="dropdown ">
+              <div className="dropdown">
                 <a
                   className="btn btn-white nav-btns shadow-none dropdown-toggle px-1"
                   href="#"
@@ -127,8 +130,9 @@ const Header = () => {
                   </li>
                 </ul>
               </div>
-              <button className="btn nav-btns shadow-none px-1"><i className="fas fa-cart-shopping me-2"></i>Cart</button>
-              
+              <button className="btn nav-btns shadow-none px-1">
+                <i className="fas fa-cart-shopping me-2"></i>Cart
+              </button>
             </ul>
           </div>
         </nav>

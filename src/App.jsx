@@ -1,13 +1,16 @@
-import React from 'react'
-import Header from './components/Header'
-import Banner from './components/Banner'
-import '../node_modules/mdb-ui-kit/css/mdb.min.css'
-import { Dropdown, Ripple,Carousel, initMDB } from '/node_modules/mdb-ui-kit/js/mdb.es.min.js'
+import React, { useEffect } from 'react';
+import Header from './components/Header';
+import Banner from './components/Banner';
+import 'mdb-ui-kit/css/mdb.min.css';
+import { Carousel, Dropdown, Ripple, initMDB } from 'mdb-ui-kit';
 
 
 
 const App = () => {
-  initMDB({ Carousel, Dropdown, Ripple, });
+  useEffect(() => {
+    // Initialize MDB components
+    initMDB({ Carousel, Dropdown, Ripple });
+  }, []);
   return (
     <>
       <Header/>
