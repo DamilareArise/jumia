@@ -81,6 +81,126 @@ const Banner = () => {
                 <div className="banner-grid1-item3 bg-white rounded"></div>
                 <div className="banner-grid1-item4 rounded"></div>
             </div>
+            <section className='section1 container d-grid p-2 gap-2 rounded my-3 bg-white'>
+                <div className="section1-grid-item card">
+                    <img src="/images/Artboard_1 (1).png" className='card-img-top' alt="" />
+                    <div className="card-body p-0 align-content-center text-dark text-center">
+                        <p className="card-text">Clearance Sale</p>
+                    </div>
+                </div>
+                <div className="section1-grid-item card">
+                    <img src="/images/Untitled-1.gif" className='card-img-top' alt="" />
+                    <div className="card-body p-0 align-content-center text-dark text-center">
+                        <p className="card-text">Anniversary Offers</p>
+                    </div>
+                </div>
+                <div className="section1-grid-item card">
+                    <img src="/images/Artboard_1_copy_13.png" className='card-img-top' alt="" />
+                    <div className="card-body p-0 align-content-center text-dark text-center">
+                        <p className="card-text">Special Offers</p>
+                    </div>
+                </div>
+                <div className="section1-grid-item card">
+                    <img src="/images/Artboard_1_copy_2.png" className='card-img-top' alt="" />
+                    <div className="card-body p-0 align-content-center text-dark text-center">
+                        <p className="card-text">Phone & Tablets Deals</p>
+                    </div>
+                </div>
+                <div className="section1-grid-item card">
+                    <img src="/images/appliances.png" className='card-img-top' alt="" />
+                    <div className="card-body p-0 align-content-center text-dark text-center">
+                        <p className="card-text">Appliances Deals</p>
+                    </div>
+                </div>
+                <div className="section1-grid-item card">
+                    <img src="/images/Artboard_1_copy_6.png" className='card-img-top' alt="" />
+                    <div className="card-body p-0 align-content-center text-dark text-center">
+                        <p className="card-text">Men's Sneakers</p>
+                    </div>
+                </div>
+                <div className="section1-grid-item card">
+                    <img src="/images/electronics.png" className='card-img-top' alt="" />
+                    <div className="card-body p-0 align-content-center text-dark text-center">
+                        <p className="card-text">Electronic Deals</p>
+                    </div>
+                </div>
+                <div className="section1-grid-item card">
+                    <img src="/images/Artboard_1_copy_7.png" className='card-img-top' alt="" />
+                    <div className="card-body p-0 align-content-center text-dark text-center">
+                        <p className="card-text">Mobile Accessories</p>
+                    </div>
+                </div>
+                <div className="section1-grid-item card">
+                    <img src="/images/BUY-NOW-PAY-LATER_GIF-2.gif" className='card-img-top' alt="" />
+                    <div className="card-body p-0 align-content-center text-dark text-center">
+                        <p className="card-text">Buy Now, Pay Later</p>
+                    </div>
+                </div>
+                <div className="section1-grid-item card">
+                    <img src="/images/beauty.png" className='card-img-top' alt="" />
+                    <div className="card-body p-0 align-content-center text-dark text-center">
+                        <p className="card-text">Beauty Deals</p>
+                    </div>
+                </div>
+                <div className="section1-grid-item card">
+                    <img src="/images/Artboard_1_copy.png" className='card-img-top' alt="" />
+                    <div className="card-body p-0 align-content-center text-dark text-center">
+                        <p className="card-text">Home Essentials</p>
+                    </div>
+                </div>
+                <div className="section1-grid-item card">
+                    <img src="/images/Artboard_1_copy_4.png" className='card-img-top' alt="" />
+                    <div className="card-body p-0 align-content-center text-dark text-center">
+                        <p className="card-text">Grocery Deals</p>
+                    </div>
+                </div>
+            </section>
+
+            <section className='container p-0 bg-white rounded pb-2'>
+                <div className="d-flex justify-content-between px-3 align-items-center pt-3">
+                    <p className='fs-5 text-dark'>Top selling items</p>
+                    <p><a href="#?" style={{color:"#f68b1e", fontSize:'.9rem'}}>SEE ALL <i className="ms-1 fas fa-angle-right"></i></a></p>
+                </div>
+                <div className='section1 container d-grid gap-2 bg-white'>
+                    <div className="section1-grid-item grid2 card">
+                        <img src="/images/1 (1).jpg" className='card-img-top' alt="" />
+                        <div className="card-body p-0 align-content-center text-dark text-center">
+                            <p className="card-text">Clearance Sale</p>
+                        </div>
+                    </div>
+                    <div className="section1-grid-item grid2 card">
+                        <img src="/images/1 (19).jpg" className='card-img-top' alt="" />
+                        <div className="card-body p-0 align-content-center text-dark text-center">
+                            <p className="card-text">Clearance Sale</p>
+                        </div>
+                    </div>
+                    <div className="section1-grid-item grid2 card">
+                        <img src="/images/1 (3).jpg" className='card-img-top' alt="" />
+                        <div className="card-body p-0 align-content-center text-dark text-center">
+                            <p className="card-text">Clearance Sale</p>
+                        </div>
+                    </div>
+                    <div className="section1-grid-item grid2 card">
+                        <img src="/images/1 (54).jpg" className='card-img-top' alt="" />
+                        <div className="card-body p-0 align-content-center text-dark text-center">
+                            <p className="card-text">Clearance Sale</p>
+                        </div>
+                    </div>
+                    <div className="section1-grid-item grid2 card">
+                        <img src="/images/1 (4).jpg" className='card-img-top' alt="" />
+                        <div className="card-body p-0 align-content-center text-dark text-center">
+                            <p className="card-text">Clearance Sale</p>
+                        </div>
+                    </div>
+                    <div className="section1-grid-item grid2 card">
+                        <img src="/images/1 (8).jpg" className='card-img-top' alt="" />
+                        <div className="card-body p-0 align-content-center text-dark text-center">
+                            <p className="card-text">Clearance Sale</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
         </section>
     </>
   )

@@ -54,7 +54,8 @@
 .container-fluid{
     min-height: 100dvh;
     background-image: url('/images/bg-live.jpg');
-    background-size: cover;
+    background-size: 120%;
+    background-position: center;
 }
 
 .banner-grid1{
@@ -73,6 +74,35 @@
 
 .carousel-indicators > button{
     border-radius: 50% !important;
-    height: 5px !important;
-    width: 5px !important;
+    height: 7px !important;
+    width: 7px !important;
+    background-color: grey !important;
+}
+
+.carousel-indicators > button.active{
+    background-color: #f68b1e !important;
+}
+
+.section1{
+    min-height: 30dvh;
+    grid-template-columns: repeat(6,1fr);
+}
+
+.section1-grid-item{
+    height: 220px;
+    transition:transform 0.1s;
+    box-shadow: none;
+}
+
+.section1-grid-item:hover{
+    transform: scale(1.02);
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.card-text{
+    font-size: .9rem;
+}
+
+.grid2{
+    min-height: 230px ;
 }

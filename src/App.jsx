@@ -5,7 +5,6 @@ import 'mdb-ui-kit/css/mdb.min.css';
 import { Carousel, Dropdown, Ripple, initMDB } from 'mdb-ui-kit';
 
 
-
 const App = () => {
   useEffect(() => {
     // Initialize MDB components
