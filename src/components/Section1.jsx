@@ -8,7 +8,7 @@ const Section1 = () => {
         <div className="section1-grid-item card">
           <img
             src="/images/Artboard_1 (1).png"
-            className="card-img-top"
+            className="card-img-top section1-img"
             alt=""
           />
           <div className="card-body p-0 align-content-center text-dark text-center">
@@ -16,7 +16,7 @@ const Section1 = () => {
           </div>
         </div>
         <div className="section1-grid-item card">
-          <img src="/images/Untitled-1.gif" className="card-img-top" alt="" />
+          <img src="/images/Untitled-1.gif" className="card-img-top section1-img" alt="" />
           <div className="card-body p-0 align-content-center text-dark text-center">
             <p className="card-text">Anniversary Offers</p>
           </div>
@@ -24,7 +24,7 @@ const Section1 = () => {
         <div className="section1-grid-item card">
           <img
             src="/images/Artboard_1_copy_13.png"
-            className="card-img-top"
+            className="card-img-top section1-img"
             alt=""
           />
           <div className="card-body p-0 align-content-center text-dark text-center">
@@ -34,7 +34,7 @@ const Section1 = () => {
         <div className="section1-grid-item card">
           <img
             src="/images/Artboard_1_copy_2.png"
-            className="card-img-top"
+            className="card-img-top section1-img"
             alt=""
           />
           <div className="card-body p-0 align-content-center text-dark text-center">
@@ -42,7 +42,7 @@ const Section1 = () => {
           </div>
         </div>
         <div className="section1-grid-item card">
-          <img src="/images/appliances.png" className="card-img-top" alt="" />
+          <img src="/images/appliances.png" className="card-img-top section1-img" alt="" />
           <div className="card-body p-0 align-content-center text-dark text-center">
             <p className="card-text">Appliances Deals</p>
           </div>
@@ -50,7 +50,7 @@ const Section1 = () => {
         <div className="section1-grid-item card">
           <img
             src="/images/Artboard_1_copy_6.png"
-            className="card-img-top"
+            className="card-img-top section1-img"
             alt=""
           />
           <div className="card-body p-0 align-content-center text-dark text-center">
@@ -58,7 +58,7 @@ const Section1 = () => {
           </div>
         </div>
         <div className="section1-grid-item card">
-          <img src="/images/electronics.png" className="card-img-top" alt="" />
+          <img src="/images/electronics.png" className="card-img-top section1-img" alt="" />
           <div className="card-body p-0 align-content-center text-dark text-center">
             <p className="card-text">Electronic Deals</p>
           </div>
@@ -66,7 +66,7 @@ const Section1 = () => {
         <div className="section1-grid-item card">
           <img
             src="/images/Artboard_1_copy_7.png"
-            className="card-img-top"
+            className="card-img-top section1-img"
             alt=""
           />
           <div className="card-body p-0 align-content-center text-dark text-center">
@@ -76,7 +76,7 @@ const Section1 = () => {
         <div className="section1-grid-item card">
           <img
             src="/images/BUY-NOW-PAY-LATER_GIF-2.gif"
-            className="card-img-top"
+            className="card-img-top section1-img"
             alt=""
           />
           <div className="card-body p-0 align-content-center text-dark text-center">
@@ -84,7 +84,7 @@ const Section1 = () => {
           </div>
         </div>
         <div className="section1-grid-item card">
-          <img src="/images/beauty.png" className="card-img-top" alt="" />
+          <img src="/images/beauty.png" className="card-img-top section1-img" alt="" />
           <div className="card-body p-0 align-content-center text-dark text-center">
             <p className="card-text">Beauty Deals</p>
           </div>
@@ -92,7 +92,7 @@ const Section1 = () => {
         <div className="section1-grid-item card">
           <img
             src="/images/Artboard_1_copy.png"
-            className="card-img-top"
+            className="card-img-top section1-img"
             alt=""
           />
           <div className="card-body p-0 align-content-center text-dark text-center">
@@ -102,7 +102,7 @@ const Section1 = () => {
         <div className="section1-grid-item card">
           <img
             src="/images/Artboard_1_copy_4.png"
-            className="card-img-top"
+            className="card-img-top section1-img"
             alt=""
           />
           <div className="card-body p-0 align-content-center text-dark text-center">

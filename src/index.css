@@ -118,14 +118,18 @@
         grid-template-rows: repeat(1, 1fr);
     }
 
+    .container-fluid{
+        background-size: cover;
+    }
+
     .section1{
         grid-template-columns: repeat(4,1fr);
 
     }
 
-    .section1-grid-item img{
-        height: 120px !important; 
-        width: 120px !important; 
+    .section1-img{
+        height: 100% ; 
+        width: 100% ; 
         margin: auto;
     }
 }
@@ -149,9 +153,9 @@
 
     }
 
-    .section1-grid-item img{
-        height: 120px !important; 
-        width: 120px !important; 
+    .section1-img{
+        height: 100% ; 
+        width: 100% ; 
         margin: auto;
     }
 }
