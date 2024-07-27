@@ -44,7 +44,7 @@ const Header = () => {
             </div>
           </div>
         </div>
-        <nav className="bg-white" style={navSticky}>
+        <nav className="bg-white d-none d-lg-block" style={navSticky}>
           <div className="d-flex container px-0">
             <div className="d-flex" style={{ width: '22%' }}>
               <img src="/images/logo.png" alt="" height={80} />

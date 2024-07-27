@@ -106,3 +106,52 @@
 .grid2{
     min-height: 230px ;
 }
+
+
+@media screen and (max-width:768px) {
+    .ads{
+        height: 30px;
+    }
+
+    .banner-grid1{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(1, 1fr);
+    }
+
+    .section1{
+        grid-template-columns: repeat(4,1fr);
+
+    }
+
+    .section1-grid-item img{
+        height: 120px !important; 
+        width: 120px !important; 
+        margin: auto;
+    }
+}
+
+
+
+@media screen and (max-width:600px) {
+
+    .ads{
+        height: 30px;
+    }
+
+    .banner-grid1{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(1, 1fr);
+        gap: 10px;
+    }
+
+    .section1{
+        grid-template-columns: repeat(2,1fr);
+
+    }
+
+    .section1-grid-item img{
+        height: 120px !important; 
+        width: 120px !important; 
+        margin: auto;
+    }
+}
